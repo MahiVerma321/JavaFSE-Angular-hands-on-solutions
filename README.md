@@ -2,6 +2,54 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.17.
 
+This repository contains my Angular training assignments and hands-on exercises completed during the 7-week training program.
+
+## Week 1
+
+### Hands-On 1
+
+* Angular project setup
+* Understanding generated Angular project structure
+* Creating reusable components
+* Component integration
+* Project documentation
+
+### Hands-On 2
+
+* Data Binding
+
+  * Interpolation
+  * Property Binding
+  * Event Binding
+  * Two-Way Binding (ngModel)
+* Lifecycle Hooks
+
+  * ngOnInit
+  * ngOnChanges
+  * ngOnDestroy
+* Parent-Child Communication
+
+  * @Input
+  * @Output
+  * EventEmitter
+
+## Screenshots Included
+
+* VS Code project structure
+* Running application on localhost:4200
+* Successful Angular build output
+
+## Technologies Used
+
+* Angular
+* TypeScript
+* HTML
+* CSS
+
+## Author
+
+Mahi Verma
+
 ## Development server
 
 To start a local development server, run:
