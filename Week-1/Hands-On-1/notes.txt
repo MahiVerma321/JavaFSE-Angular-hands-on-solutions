@@ -1,0 +1,51 @@
+ANGULAR HANDS-ON 1 – Project File Explanations:
+
+1. angular.json
+   Main Angular workspace configuration file that defines build, serve, test, assets, and project settings.
+
+2. tsconfig.json
+   Base TypeScript configuration file used by the entire Angular workspace.
+
+3. tsconfig.app.json
+   TypeScript configuration specifically used when compiling the Angular application.
+
+4. package.json
+   Stores project metadata, dependencies, and npm scripts used to run and build the application.
+
+5. src/main.ts
+   Application entry point that bootstraps the Angular application and starts execution.
+
+6. src/app/app.config.ts
+   Contains global application configuration such as providers, routing, and Angular services.
+
+7. src/app/app.ts
+   Root component of the application that acts as the top-level container for all UI components.
+
+8. src/index.html
+   Main HTML page loaded by the browser that hosts the Angular application.
+
+9. maximumWarning
+   Shows warning if bundle becomes too large.
+
+10. maximumError
+    Build fails if bundle exceeds this size.
+
+Additional Learning Notes
+
+1. Angular 20 uses standalone components by default, reducing the need for NgModules.
+2. The application starts execution from main.ts and renders the root App component.
+3. The build output is generated inside the dist/ folder after running ng build.
+4. Component files are typically organized into TypeScript (.ts), HTML (.html), CSS (.css), and test (.spec.ts) files.
+
+Build Output Observations
+
+After running ng build, Angular generated a dist folder containing browser and server build artifacts.
+
+Important generated files:
+
+• index.html – Entry HTML page for the built application.
+• styles-5INURTSO.css – Compiled application styles.
+• main-GPXPEOAV.js – Compiled Angular application code generated from the project's TypeScript files.
+• server/*.mjs – Files used for server-side rendering.
+
+The primary compiled application code is contained in main-GPXPEOAV.js.

@@ -1,0 +1,38 @@
+SELF-EVALUATION – HANDS-ON 1
+
+Tasks Completed:
+• Created an Angular project using Angular CLI.
+• Explored the Angular project structure.
+• Documented the purpose of important Angular files in notes.txt.
+• Generated Header, Home, Course List, and Student Profile components.
+• Successfully ran the application using ng serve.
+• Built the project using ng build.
+• Inspected the dist folder and identified the compiled application bundle.
+
+Challenges Faced:
+• Understanding Angular standalone component structure.
+• Understanding the purpose of generated build files.
+
+Learning Outcomes:
+• Learned Angular project organization.
+• Learned how Angular compiles TypeScript into JavaScript bundles.
+• Learned component generation using Angular CLI.
+• Learned the purpose of the dist folder and build artifacts.
+
+Areas for Improvement:
+• Gain deeper understanding of Angular routing.
+• Explore Angular services and state management.
+• Improve familiarity with standalone component architecture.
+
+SELF-EVALUATION – HANDS-ON 2
+
+Tasks Completed:
+- Implemented interpolation, property binding, event binding and two-way binding.
+- Implemented ngOnInit, ngOnChanges and ngOnDestroy lifecycle hooks.
+- Implemented parent-child communication using @Input and @Output.
+- Successfully rendered course cards and handled enrollment events.
+
+Areas for Improvement:
+- Improve UI styling.
+- Learn Angular routing in upcoming weeks.
+- Add responsive layouts.
